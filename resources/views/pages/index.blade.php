@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>{{$title}}</h1>
+
+    @include('view_components.landingDiv')
+
 @endsection

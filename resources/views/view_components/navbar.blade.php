@@ -1,7 +1,1 @@
-@extends('layouts.app')
-
-@section('navbar')
-
-
-
-@endsection
+Hello World

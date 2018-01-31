@@ -1,9 +1,5 @@
-#Disable index view
-options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
 
-#hide a Specifuc File
-
-<Files .env>
-order allow,deny
-Deny from all
-</Files>
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
