@@ -27,6 +27,14 @@
                 transition-delay: $tr-time;
             }
             
+            
+            @media only screen and (max-width: 420px) {
+                .n-img{
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+            
             .n-hide{
                 opacity: 0;
                 transform: scale(2);
@@ -46,6 +54,14 @@
                 color: $blue-color;
             }
             
+            
+            @media only screen and (max-width: 420px) {
+                h4{
+                    margin-top: 24px;
+                    font-size: 14px;
+                }
+            }
+            
         }
     }
     
@@ -60,6 +76,7 @@
     transform: translateY(-100%);
     opacity: 0;
 }
+
 
 
 

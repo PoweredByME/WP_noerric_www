@@ -8389,6 +8389,13 @@ button.close {
           transition-delay: 0.5s;
 }
 
+@media only screen and (max-width: 420px) {
+  .landing-div-container .content-div .img-div .n-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 .landing-div-container .content-div .img-div .n-hide {
   opacity: 0;
   -webkit-transform: scale(2);
@@ -8410,6 +8417,13 @@ button.close {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #59C2D1;
+}
+
+@media only screen and (max-width: 420px) {
+  .landing-div-container .content-div .text-div h4 {
+    margin-top: 24px;
+    font-size: 14px;
+  }
 }
 
 .n-hide.text-div {
