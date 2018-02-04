@@ -8417,6 +8417,7 @@ button.close {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #59C2D1;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 420px) {
@@ -8434,5 +8435,10 @@ button.close {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   opacity: 0;
+}
+
+.carousel-container-div {
+  height: 100vh;
+  width: 100vw;
 }
 

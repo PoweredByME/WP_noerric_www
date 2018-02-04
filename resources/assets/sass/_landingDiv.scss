@@ -1,8 +1,7 @@
-.landing-div-container{
-    
+.landing-div-container {
     position: relative;
     background: $dark-bg;
-    height : $md-height;
+    height: $md-height;
     width: $md-width;
     display: flex;
     align-items: center;
@@ -10,14 +9,11 @@
     transition-duration: $tr-time;
     transform: translateY(0);
     opacity: 1;
-            
-    
-    .content-div{
+    .content-div {
         margin-left: auto;
         margin-right: auto;
-        .img-div{
-            
-            .n-img{
+        .img-div {
+            .n-img {
                 height: 280px;
                 width: 280px;
                 opacity: 1;
@@ -26,58 +22,44 @@
                 transition-duration: $tr-time;
                 transition-delay: $tr-time;
             }
-            
-            
             @media only screen and (max-width: 420px) {
-                .n-img{
+                .n-img {
                     height: 200px;
                     width: 200px;
                 }
             }
-            
-            .n-hide{
+            .n-hide {
                 opacity: 0;
                 transform: scale(2);
             }
-            
         }
-        .text-div{
+        .text-div {
             transition-property: all;
             transition-duration: $tr-time;
             transition-delay: 2 * $tr-time;
             opacity: 1;
-            
-            h4{
+            h4 {
                 margin-top: 36px;
                 text-align: center;
                 font-family: 'Raleway', sans-serif;
                 color: $blue-color;
+                font-size: 18px;
             }
-            
-            
             @media only screen and (max-width: 420px) {
-                h4{
+                h4 {
                     margin-top: 24px;
                     font-size: 14px;
                 }
             }
-            
         }
     }
-    
 }
 
-
-.n-hide.text-div{
+.n-hide.text-div {
     opacity: 0 !important;
 }
 
-.n-hide.landing-div-container{
+.n-hide.landing-div-container {
     transform: translateY(-100%);
     opacity: 0;
 }
-
-
-
-
-
