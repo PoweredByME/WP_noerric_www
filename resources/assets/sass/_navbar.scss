@@ -1,0 +1,37 @@
+.navbar-div {
+    padding-left: 12px;
+    padding-right: 12px;
+    background: $dark-bg !important;
+    a.brand-logo {
+        color: $dark-white-color !important;
+        img {
+            margin-top: -4px;
+        }
+    }
+    a.button-collapse {
+        color: $dark-white-color !important;
+    }
+    ul {
+        li {
+            a {
+                color: $dark-white-color !important;
+            }
+        }
+    }
+}
+
+.nf-div {
+    transform: translateY(0px);
+    transition: all 0.5s;
+}
+
+.n-hide.nf-div {
+    transform: translateY(-100%);
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

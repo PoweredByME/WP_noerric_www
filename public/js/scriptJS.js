@@ -4,6 +4,11 @@ function windowOnLoad() {
     setTimeout(afterLoaderDisapper, 300);
     smoothScroolling();
     $(".slider").slider({ height: $(window).innerHeight(), interval: 3000 });
+    $(".button-collapse").sideNav();
+    $(".modal").modal();
+    window.onscroll = windowOnScroll;
+    windowOnScroll();
+    viewAdjustments();
 }
 
 function afterLoaderDisapper() {
@@ -12,6 +17,24 @@ function afterLoaderDisapper() {
     typeWriterEffect($(".ldc-caption"), function() {
         $(".scroll-btn").removeClass("n-hide");
     });
+}
+
+// This function adjects the faulty views is they exist in the html file
+function viewAdjustments() {
+    $(".landing-div-container").css("margin-top", (-1 * $(".navbar-fixed").innerHeight()) + "px");
+}
+
+var navBar_onScroll = { flag: false };
+var aboutUs_onScroll = { flag: false };
+
+function windowOnScroll() {
+    onScrollAction($(".carousel-container-div"), $(window).innerHeight() * 0.5, navBar_onScroll, function() {
+        $(".nf-div").toggleClass("n-hide");
+    });
+
+    onScrollAction($(".about-us-div-container"), $(window).innerHeight() * 0.3, aboutUs_onScroll, function() {
+        $(".aud-content-div").toggleClass("n-hide");
+    })
 }
 
 
@@ -86,6 +109,7 @@ function smoothScroolling() {
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
+        .not('[href*="#modal"]')
         .click(function(event) {
             // On-page links
             if (

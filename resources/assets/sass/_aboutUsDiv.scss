@@ -1,0 +1,118 @@
+.about-us-div-container {
+    background: $dark-white-color;
+    overflow-x: hidden;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.aud-content-div {
+    padding-left: 40px;
+    padding-right: 40px;
+    h1,
+    h5 {
+        padding: 0px;
+        margin: 0px;
+    }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 108px !important;
+        transition: all 0.5s;
+        transform: scale(1);
+        opacity: 1;
+    }
+    h5 {
+        font-weight: 200;
+        span {
+            transition-property: all;
+            transition-duration: 0.1s;
+            opacity: 1;
+            margin-left: 3px;
+        }
+    }
+    p {
+        margin-top: 84px;
+        font-size: 16px;
+        margin-bottom: 60px;
+        transition: all 0.5s;
+        opacity: 1;
+    }
+}
+
+.n-hide.aud-content-div {
+    h1 {
+        opacity: 0;
+    }
+    h5 {
+        span {
+            opacity: 0;
+        }
+    }
+    p {
+        opacity: 0;
+    }
+}
+
+.about-us-modal {
+    background: $dark-bg !important;
+    div {
+        background: $dark-bg !important;
+    }
+    div.aum-footer {
+        background: $dark-white-color !important;
+        a:hover {
+            color: black !important;
+        }
+    }
+}
+
+.aud-know-more-btn-div {
+    a {
+        color: $dark-bg;
+        transition: all $tr-time;
+    }
+    a:hover {
+        color: black;
+    }
+}
+
+.aum-img {
+    width: 120px;
+}
+
+.aum-text {
+    margin: 60px;
+    color: $dark-white-color !important;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .aum-text {
+        margin: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: $dark-white-color !important;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .aud-content-div {
+        padding-left: 20px;
+        padding-right: 20px;
+        h1 {
+            font-size: 72px !important;
+        }
+    }
+    .aum-text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .aud-content-div {
+        h1 {
+            font-size: 60px !important;
+        }
+    }
+}

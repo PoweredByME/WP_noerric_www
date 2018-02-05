@@ -1,4 +1,4 @@
-<div class="landing-div-container n-hide">
+<div class="landing-div-container n-hide" id="landing-div-container-id">
 
     <div class="content-div">
         <div class="img-div">
@@ -12,7 +12,7 @@
     </div>
 
     <span class="scroll-btn n-hide">
-	    <a href="#" style="margin-left:auto; margin-right:auto;text-decoration:none">
+	    <a href="#carousel-container-div-id" style="margin-left:auto; margin-right:auto;text-decoration:none">
 		    <span class="mouse">
 			    <span></span>
 		    </span>

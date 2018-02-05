@@ -1,2 +1,12 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@import "navbar";
 @import "landingDiv";
-@import "carouselDiv"
+@import "carouselDiv";
+@import "aboutUsDiv";

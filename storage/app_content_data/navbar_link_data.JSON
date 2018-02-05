@@ -1,0 +1,8 @@
+{
+    "index": [
+        { "text": "Home", "href": "#landing-div-container-id", "icon": "home" },
+        { "text": "About Us", "href": "#about-us-div", "icon": "info" },
+        { "text": "About Us", "href": "#about-us-div", "icon": "home" },
+        { "text": "About Us", "href": "#about-us-div", "icon": "home" }
+    ]
+}

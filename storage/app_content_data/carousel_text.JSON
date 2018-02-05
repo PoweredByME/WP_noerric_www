@@ -4,24 +4,28 @@
         "heading": "heading",
         "desktop_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "mobile_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "cap_align": "center-align"
+        "cap_align": "center-align",
+        "text_align": "center"
     }, {
         "image": "img/carousel/2.jpg",
         "heading": "heading",
         "desktop_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "mobile_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "cap_align": "left-align"
+        "cap_align": "left-align",
+        "text_align": "left"
     }, {
         "image": "img/carousel/3.jpg",
         "heading": "heading",
         "desktop_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "mobile_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "cap_align": "right-align"
+        "cap_align": "right-align",
+        "text_align": "right"
     }, {
         "image": "img/carousel/4.jpg",
         "heading": "heading",
         "desktop_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "mobile_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "cap_align": "left-align"
+        "cap_align": "left-align",
+        "text_align": "left"
     }]
 }

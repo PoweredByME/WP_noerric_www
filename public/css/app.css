@@ -8350,11 +8350,61 @@ button.close {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.navbar-div {
+  padding-left: 12px;
+  padding-right: 12px;
+  background: #404040 !important;
+}
+
+.navbar-div a.brand-logo {
+  color: #BAB9B2 !important;
+}
+
+.navbar-div a.brand-logo img {
+  margin-top: -4px;
+}
+
+.navbar-div a.button-collapse {
+  color: #BAB9B2 !important;
+}
+
+.navbar-div ul li a {
+  color: #BAB9B2 !important;
+}
+
+.nf-div {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.n-hide.nf-div {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .landing-div-container {
   position: relative;
   background: #404040;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8440,5 +8490,136 @@ button.close {
 .carousel-container-div {
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
+}
+
+.about-us-div-container {
+  background: #BAB9B2;
+  overflow-x: hidden;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.aud-content-div {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.aud-content-div h1,
+.aud-content-div h5 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.aud-content-div h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 108px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+.aud-content-div h5 {
+  font-weight: 200;
+}
+
+.aud-content-div h5 span {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  opacity: 1;
+  margin-left: 3px;
+}
+
+.aud-content-div p {
+  margin-top: 84px;
+  font-size: 16px;
+  margin-bottom: 60px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.n-hide.aud-content-div h1 {
+  opacity: 0;
+}
+
+.n-hide.aud-content-div h5 span {
+  opacity: 0;
+}
+
+.n-hide.aud-content-div p {
+  opacity: 0;
+}
+
+.about-us-modal {
+  background: #404040 !important;
+}
+
+.about-us-modal div {
+  background: #404040 !important;
+}
+
+.about-us-modal div.aum-footer {
+  background: #BAB9B2 !important;
+}
+
+.about-us-modal div.aum-footer a:hover {
+  color: black !important;
+}
+
+.aud-know-more-btn-div a {
+  color: #404040;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.aud-know-more-btn-div a:hover {
+  color: black;
+}
+
+.aum-img {
+  width: 120px;
+}
+
+.aum-text {
+  margin: 60px;
+  color: #BAB9B2 !important;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .aum-text {
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #BAB9B2 !important;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .aud-content-div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .aud-content-div h1 {
+    font-size: 72px !important;
+  }
+
+  .aum-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .aud-content-div h1 {
+    font-size: 60px !important;
+  }
 }
 
