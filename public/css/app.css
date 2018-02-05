@@ -8358,6 +8358,10 @@ a {
   text-decoration: none !important;
 }
 
+div {
+  outline: none;
+}
+
 .navbar-div {
   padding-left: 12px;
   padding-right: 12px;

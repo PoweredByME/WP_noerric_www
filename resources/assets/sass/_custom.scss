@@ -6,6 +6,10 @@ a {
     text-decoration: none !important;
 }
 
+div {
+    outline: none;
+}
+
 @import "navbar";
 @import "landingDiv";
 @import "carouselDiv";
