@@ -6,5 +6,6 @@
     @include('view_components.landingDiv')
     @include('view_components.carouselDiv')
     @include('view_components.aboutUsDiv')
+    @include('view_components.aboutProject')
     
 @endsection
