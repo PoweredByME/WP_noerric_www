@@ -1,0 +1,75 @@
+.pw-1 {
+    min-height: 70vh;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ipw-1 {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.about-project-container {
+    background: white;
+}
+
+.ti-tile {
+    padding-bottom: 16px;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.3s;
+    .ti-img {
+        width: 210px;
+        height: 210px;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+    p {
+        padding: 0px;
+        margin: 0px;
+    }
+    .ti-designation-text {
+        font-weight: 600 !important;
+        span {
+            font-weight: 400 !important;
+        }
+    }
+}
+
+.n-hide.ti-tile {
+    opacity: 0;
+}
+
+.social-media-div {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #f8f8f8;
+}
+
+.sm-img {
+    height: 80px;
+    width: 80px;
+}
+
+.sm-tile {
+    padding: 16px;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.3s;
+    a {
+        opacity: 0.8;
+        transition-property: all;
+        transition-duration: 0.3s;
+    }
+    a:hover {
+        opacity: 1;
+    }
+}
+
+.n-hide.sm-tile {
+    opacity: 0;
+}

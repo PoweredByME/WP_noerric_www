@@ -7,5 +7,6 @@
     @include('view_components.carouselDiv')
     @include('view_components.aboutUsDiv')
     @include('view_components.aboutProject')
-    
+    @include('view_components.footer')
+
 @endsection

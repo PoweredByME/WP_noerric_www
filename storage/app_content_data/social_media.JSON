@@ -1,0 +1,10 @@
+{
+    "links": [
+        { "href": "#!", "name": "Facebook", "img": "img/socialMedia/facebook.svg" },
+        { "href": "#!", "name": "Twitter", "img": "img/socialMedia/twitter.svg" },
+        { "href": "#!", "name": "Instagram", "img": "img/socialMedia/instagram.svg" },
+        { "href": "#!", "name": "YouTube", "img": "img/socialMedia/youtube.svg" },
+        { "href": "#!", "name": "Linked In", "img": "img/socialMedia/linkedin.svg" },
+        { "href": "#!", "name": "Our Location", "img": "img/socialMedia/map.svg" }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "parallax": "img/aboutTeam/1.jpg",
+
+    "img": [
+        { "name": "Zain Ul Abideen", "designation": "CEO", "img": "img/aboutTeam/mi.png" },
+        { "name": "Haroon Rana", "designation": "CTO", "img": "img/aboutTeam/mi.png" },
+        { "name": "Faisal Ali", "designation": "CMO", "img": "img/aboutTeam/mi.png" },
+        { "name": "Masooma Inam", "designation": "CCC", "img": "img/aboutTeam/mi.png" },
+        { "name": "Masooma Inam", "designation": "CCC", "img": "img/aboutTeam/mi.png" }
+    ],
+
+    "text": {
+        "less_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "more_text": "about team"
+    }
+}

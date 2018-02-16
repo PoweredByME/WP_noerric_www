@@ -2,7 +2,7 @@
     "index": [
         { "text": "Home", "href": "#landing-div-container-id", "icon": "home" },
         { "text": "About Us", "href": "#about-us-div", "icon": "info" },
-        { "text": "About Us", "href": "#about-us-div", "icon": "home" },
-        { "text": "About Us", "href": "#about-us-div", "icon": "home" }
+        { "text": "Product", "href": "#about-project-div", "icon": "settings" },
+        { "text": "Team", "href": "#about-team-div", "icon": "group" }
     ]
 }

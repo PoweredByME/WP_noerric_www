@@ -1,0 +1,6 @@
+{
+    "contacts": [
+        { "href": "#!", "icon": "home", "contact": "(+92)332-6363603", "tooltip": "Contact CEO | Noerric" },
+        { "href": "mailto:saadkwi12@hotmail.com", "icon": "email", "contact": "saadkwi12@hotmail.com", "tooltip": "Email CEO | Noerric" }
+    ]
+}

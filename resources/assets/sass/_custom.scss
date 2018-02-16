@@ -1,9 +1,17 @@
-body {
+.the-body {
     overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+}
+
+.no-scroll {
+    overflow-y: hidden !important;
 }
 
 a {
     text-decoration: none !important;
+    outline: none !important;
 }
 
 div {
@@ -15,3 +23,4 @@ div {
 @import "carouselDiv";
 @import "aboutUsDiv";
 @import "aboutProject";
+@import "footer";

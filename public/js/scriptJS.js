@@ -1,3 +1,5 @@
+parallaxDivList = ["pw-1"];
+
 function windowOnLoad() {
     $('.loading-page').addClass('disappear-anime');
     setTimeout(function() { $('.loading-page').addClass('disappear'); }, 400);
@@ -7,11 +9,21 @@ function windowOnLoad() {
     $(".button-collapse").sideNav();
     $(".modal").modal();
     window.onscroll = windowOnScroll;
+    window.onresize = windowOnResize;
     windowOnScroll();
     viewAdjustments();
+
+    // init all parallax divs
+    parallaxDivList.forEach(element => {
+        $("." + element).parallaxie(); //parallax({ imageSrc: $("." + element).attr("data-image-src") });
+    });
+
+
 }
 
 function afterLoaderDisapper() {
+    $(".the-body").toggleClass("no-scroll");
+    windowOnResize();
     $(".n-img").toggleClass("n-hide");
     $(".landing-div-container").toggleClass("n-hide")
     typeWriterEffect($(".ldc-caption"), function() {
@@ -26,19 +38,44 @@ function viewAdjustments() {
 
 var navBar_onScroll = { flag: false };
 var aboutUs_onScroll = { flag: false };
+var aboutProject_onScroll = { flag: false };
+var aboutTeam_onScroll = { flag: false };
+var soicalMedia_onScroll = { flag: false };
 
 function windowOnScroll() {
+
     onScrollAction($(".carousel-container-div"), $(window).innerHeight() * 0.5, navBar_onScroll, function() {
         $(".nf-div").toggleClass("n-hide");
     });
+    var offset = 0;
+    if ($(window).innerWidth() >= 600) {
+        offset = $(window).innerHeight() * 0.5;
+    } else {
+        offset = $(window).innerHeight() * 0.35;
+    }
+    onScrollAction($(".trigger-1"), $(window).innerHeight() * 0.5, aboutUs_onScroll, function() {
+        $(".aud-content-div-1").toggleClass("n-hide");
+    })
 
-    onScrollAction($(".about-us-div-container"), $(window).innerHeight() * 0.3, aboutUs_onScroll, function() {
-        $(".aud-content-div").toggleClass("n-hide");
+    onScrollAction($(".trigger-2"), $(window).innerHeight() * 0.5, aboutProject_onScroll, function() {
+        $(".aud-content-div-2").toggleClass("n-hide");
+    })
+
+    onScrollAction($(".trigger-4"), $(window).innerHeight() * 0.5, soicalMedia_onScroll, function() {
+        $(".aud-content-div-4").toggleClass("n-hide");
+        $(".sm-tile").toggleClass("n-hide");
+    })
+
+    onScrollAction($(".trigger-3"), $(window).innerHeight() * 0.5, aboutTeam_onScroll, function() {
+        $(".aud-content-div-3").toggleClass("n-hide");
+        $(".ti-tile").toggleClass("n-hide");
     })
 }
 
 
-
+function windowOnResize() {
+    $("the-body").css("width", $(window).innerWidth() + "px");
+}
 
 
 

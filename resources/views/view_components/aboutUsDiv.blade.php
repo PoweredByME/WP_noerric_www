@@ -1,6 +1,6 @@
-<div class="about-us-div-container" id="about-us-div">
+<div class="about-us-div-container trigger-1" style="background:#f8f8f8" id="about-us-div">
     
-    <div class="aud-content-div center n-hide container">
+    <div class="aud-content-div aud-content-div-1 center n-hide container">
         <h1>About.</h1>    
         <h5>
             <span style="font-weight:400">N</span>
@@ -18,7 +18,7 @@
         </p>
 
         <div class="center aud-know-more-btn-div">
-            <a href="#modal1" class="modal-trigger">
+            <a href="#modal1" class="modal-trigger tooltipped"  data-position="top" data-delay="50" data-tooltip="Know more about Noerric">
                 <i class="material-icons medium">info</i>
                 <br>KNOW MORE
             </a>
